@@ -1,0 +1,558 @@
+{
+    "city": [
+        ["021","上海市"],
+        ["022","天津市"],
+        ["571","浙江省杭州市"],
+        ["572","浙江省湖州市"],
+        ["573","浙江省嘉兴市"],
+        ["579","浙江省金华市"],
+        ["578","浙江省丽水市"],
+        ["570","浙江省衢州市"],
+        ["575","浙江省绍兴市"],
+        ["576","浙江省台州市"],
+        ["577","浙江省温州市"],
+        ["580","浙江省舟山市"],
+        ["010","北京市"],
+        ["591","福建省福州市"],
+        ["597","福建省龙岩市"],
+        ["599","福建省南平市"],
+        ["593","福建省宁德市"],
+        ["594","福建省莆田市"],
+        ["595","福建省泉州市"],
+        ["598","福建省三明市"],
+        ["596","福建省漳州市"],
+        ["768","广东省潮州市"],
+        ["769","广东省东莞市"],
+        ["757","广东省佛山市"],
+        ["020","广东省广州市"],
+        ["762","广东省河源市"],
+        ["752","广东省惠州市"],
+        ["750","广东省江门市"],
+        ["663","广东省揭阳市"],
+        ["668","广东省茂名市"],
+        ["753","广东省梅州市"],
+        ["763","广东省清远市"],
+        ["754","广东省汕头市"],
+        ["660","广东省汕尾市"],
+        ["751","广东省韶关市"],
+        ["755","广东省深圳市"],
+        ["662","广东省阳江市"],
+        ["766","广东省云浮市"],
+        ["759","广东省湛江市"],
+        ["758","广东省肇庆市"],
+        ["760","广东省中山市"],
+        ["756","广东省珠海市"]
+    ],
+    "birthplace": [
+        {
+            "label": "中国",
+            "code": "0156"
+        },
+        {
+            "label": "中国香港",
+            "code": "0344"
+        },
+        {
+            "label": "中国澳门",
+            "code": "0446"
+        },
+        {
+            "label": "台湾地区",
+            "code": "0158"
+        },
+        {
+            "label": "其他",
+            "code": "0999"
+        }
+    ],
+    "nationality":[
+        {
+            "label": "中国",
+            "code": "0156"
+        },
+        {
+            "label": "中国香港",
+            "code": "0344"
+        },
+        {
+            "label": "台湾地区",
+            "code": "0158"
+        },
+        {
+            "label": "中国澳门",
+            "code": "0446"
+        },
+        {
+            "label": "日本",
+            "code": "0392"
+        },
+        {
+            "label": "美国",
+            "code": "0840"
+        },
+        {
+            "label": "俄罗斯",
+            "code": "0643"
+        },
+        {
+            "label": "英国",
+            "code": "0826"
+        },
+        {
+            "label": "法国",
+            "code": "0250"
+        },
+        {
+            "label": "德国",
+            "code": "0276"
+        },
+        {
+            "label": "韩国",
+            "code": "0410"
+        },
+        {
+            "label": "新加坡",
+            "code": "0702"
+        },
+        {
+            "label": "印度尼西亚",
+            "code": "0360"
+        },
+        {
+            "label": "印度",
+            "code": "0356"
+        },
+        {
+            "label": "意大利",
+            "code": "0380"
+        },
+        {
+            "label": "马来西亚",
+            "code": "0458"
+        },
+        {
+            "label": "泰国",
+            "code": "0764"
+        },
+        {
+            "label": "其他国家和地区",
+            "code": "0999"
+        }],
+    "version": "2",
+    "company": "MetLife",
+    "inputs": [
+        {
+            "label": "投保人信息",
+            "type": "0",
+            "field": "titleElement1"
+        },
+        {
+            "label": "姓名",
+            "type": "3",
+            "field": "policyholderName"
+        },
+        {
+            "label": "性别",
+            "type": "3",
+            "field": "policyholderGender",
+            "opts": [
+                {
+                    "label": "女",
+                    "code": "0"
+                },
+                {
+                    "label": "男",
+                    "code": "1"
+                }
+            ]
+        },
+        {
+            "label": "出生日期",
+            "type": "3",
+            "field": "policyholderBirthday",
+            "format": "date"
+        },
+        {
+            "label": "国籍(国家/地区)",
+            "type": "3",
+            "field": "policyholderNationality"
+        },
+        {
+            "label": "投保人证件类别",
+            "type": "3",
+            "field": "policyholderIDDocumentType",
+            "opts": [
+                {
+                    "label": "出生证",
+                    "code": "K"
+                },
+                {
+                    "label": "身份证",
+                    "code": "0"
+                },
+                {
+                    "label": "中国护照",
+                    "code": "1"
+                },
+                {
+                    "label": "军官证",
+                    "code": "2"
+                },
+                {
+                    "label": "士兵证",
+                    "code": "3"
+                },
+                {
+                    "label": "港澳台通行证",
+                    "code": "4"
+                },
+                {
+                    "label": "户口本",
+                    "code": "5"
+                },
+                {
+                    "label": "外国护照",
+                    "code": "6"
+                },
+                {
+                    "label": "文职证",
+                    "code": "8"
+                },
+                {
+                    "label": "警官证",
+                    "code": "9"
+                },
+                {
+                    "label": "外国人永居证",
+                    "code": "M"
+                }
+            ]
+        },
+        {
+            "label": "投保人证件号码",
+            "type": "3",
+            "field": "policyholderIDDocumentNo"
+        },
+        {
+            "label": "证件有效期",
+            "type": "3",
+            "field": "policyholderIDValidityDate",
+            "format": "date"
+        },
+        {
+            "label": "",
+            "type": "-1",
+            "field": ""
+        },
+        {
+            "label": "保费预算(万元)",
+            "type": "1",
+            "field": "policyholderPremiumBudget",
+            "format": "decimal",
+            "base": "10000"
+        },
+        {
+            "label": "年收入(万元)",
+            "type": "1",
+            "field": "policyholderAnnualIncome",
+            "format": "decimal",
+            "base": "10000"
+        },
+        {
+            "label": "家庭年收入(万元)",
+            "type": "1",
+            "field": "policyholderAnnualHouseholdIncome",
+            "format": "decimal",
+            "base": "10000"
+        },
+        {
+            "label": "",
+            "type": "-1",
+            "field": ""
+        },
+        {
+            "label": "通讯地址",
+            "type": "2",
+            "field": "policyholderResidenceAddressCode",
+            "hint": "请选择省市"
+        },
+        {
+            "label": "",
+            "type": "1",
+            "field": "policyholderCorrespondenceAddress",
+            "hint": "请输入详细地址"
+        },
+        {
+            "label": "邮政编码",
+            "type": "1",
+            "field": "policyholderPostCode",
+            "length": "6",
+            "format": "number"
+        },
+        {
+            "label": "移动电话(+86)",
+            "type": "1",
+            "field": "policyholderMobileNo",
+            "length": "11",
+            "format": "number"
+        },
+        {
+            "label": "电子邮件",
+            "type": "1",
+            "field": "policyholderEmailAddress",
+            "format": "email"
+        },
+        {
+            "label": "",
+            "type": "-1",
+            "field": ""
+        },
+        {
+            "label": "工作单位",
+            "type": "1",
+            "field": "policyholderCompany"
+        },
+        {
+            "label": "职业代码",
+            "type": "2",
+            "field": "policyholderOccupationCode",
+            "opts": [
+                {
+                    "label": "单位文职内勤",
+                    "code": "A001"
+                },
+                {
+                    "label": "外勤商旅餐饮",
+                    "code": "A002"
+                },
+                {
+                    "label": "农牧钢塑装潢",
+                    "code": "B103"
+                },
+                {
+                    "label": "渔港采砂水泥",
+                    "code": "C104"
+                },
+                {
+                    "label": "电力建筑机械",
+                    "code": "H121"
+                },
+                {
+                    "label": "高空海上航空",
+                    "code": "F427"
+                },
+                {
+                    "label": "海渔航运出国",
+                    "code": "F303"
+                },
+                {
+                    "label": "潜水爆破赛车",
+                    "code": "W801",
+                    "reject": true
+                },
+                {
+                    "label": "未成年人",
+                    "code": "V092"
+                },
+                {
+                    "label": "其他职业",
+                    "code": "Q301"
+                },
+                {
+                    "label": "家庭主妇",
+                    "code": "R001"
+                },
+                {
+                    "label": "离退休人员",
+                    "code": "V094"
+                },
+                {
+                    "label": "自由职业",
+                    "code": "Q201"
+                },
+                {
+                    "label": "防爆特勤特技",
+                    "code": "V082",
+                    "reject": true
+                },
+                {
+                    "label": "学生",
+                    "code": "M102"
+                }
+            ]
+        },
+        {
+            "label": "居民类型",
+            "type": "2",
+            "field": "residentType",
+            "opts": [
+                {
+                    "label": "城镇居民",
+                    "code": "1"
+                },
+                {
+                    "label": "农村居民",
+                    "code": "2"
+                }
+            ]
+        },
+        {
+            "label": "客户身份",
+            "type": "3",
+            "field": "policyholderTaxDeclaration",
+            "value": "中国税收居民"
+        },
+        {
+            "label": "",
+            "type": "-1",
+            "field": "",
+            "value": ""
+        },
+        {
+            "label": "为谁投保",
+            "type": "4",
+            "field": "selforChild",
+            "opts": [
+                {
+                    "label": "本人",
+                    "code": "3",
+                    "inputs":[]
+                },
+                {
+                    "label": "未成年子女",
+                    "code": "bcde",
+                    "inputs":[
+                        {
+                            "label": "被保人信息",
+                            "type": "0",
+                            "field": "insuredHeader"
+                        },
+                        {
+                            "label": "姓名",
+                            "type": "1",
+                            "field": "insuredName"
+                        },
+                        {
+                            "label": "性别",
+                            "type": "2",
+                            "field": "insuredGender",
+                            "opts": [
+                                {
+                                    "label": "男",
+                                    "code": "1"
+                                },
+                                {
+                                    "label": "女",
+                                    "code": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "出生日期",
+                            "type": "2",
+                            "field": "insuredBirthDay",
+                            "format": "date"
+                        },
+                        {
+                            "label": "证件类型",
+                            "type": "2",
+                            "field": "insuredIDDocumentType",
+                            "opts": [
+                                {
+                                    "label": "出生证",
+                                    "code": "K"
+                                },
+                                {
+                                    "label": "身份证",
+                                    "code": "0"
+                                },
+                                {
+                                    "label": "户口本",
+                                    "code": "5"
+                                }
+                            ]
+                        },
+                        {
+                            "label": "证件号码",
+                            "type": "1",
+                            "field": "insuredIDDocumentNo"
+                        },
+                        {
+                            "label": "证件有效期",
+                            "type": "6",
+                            "field": "insuredIDValidityDate",
+                            "format": "date"
+                        },
+                        {
+                            "label": "国籍(国家/地区)",
+                            "type": "2",
+                            "field": "insuredNationality"
+                        },
+                        {
+                            "label": "",
+                            "type": "-1",
+                            "field": ""
+                        },
+                        {
+                            "label": "通讯地址",
+                            "type": "3",
+                            "field": "sameAddress",
+                            "value": "同投保人通讯地址"
+                        },
+                        {
+                            "label": "邮政编码",
+                            "type": "3",
+                            "field": "samePostCode",
+                            "value": "同投保人邮政编码"
+                        },
+                        {
+                            "label": "移动电话(+86)",
+                            "type": "1",
+                            "field": "insuredMobilePhone",
+                            "length": "11",
+                            "format": "number"
+                        },
+                        {
+                            "label": "电子邮件",
+                            "type": "1",
+                            "field": "insuredEmail",
+                            "format": "email"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "",
+            "type": "-1",
+            "field": ""
+        },
+        {
+            "label": "受益人",
+            "type": "3",
+            "field": "profitPerson",
+            "value": "法定受益人"
+        },
+        {
+            "label": "其他事项",
+            "type": "0",
+            "field": "other"
+        },
+        {
+            "label": "保单递送方式",
+            "type": "3",
+            "field": "policyDeliveryMethod",
+            "value": "2",
+            "opts": [
+                {
+                    "label": "电子保单",
+                    "code": "2"
+                },
+                {
+                    "label": "银行柜台",
+                    "code": "4"
+                }
+            ]
+        }
+    ]
+}
